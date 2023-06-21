@@ -1,1 +1,24 @@
-/*  your css code here. If applicable */
+html{
+	background-color:rgb(135, 206, 235);
+}
+
+.container p:first-child{
+	background-color: black;
+	color:white;
+}
+
+.container p:last-child{
+	color:red;
+}
+
+.list-items .item:first-child,.item:last-child{
+    background-color: white;
+}
+
+.list-items .item:nth-child(2n){
+    background-color: gray;
+}
+
+.list-items>.item3{
+    background-color: pink;
+}
